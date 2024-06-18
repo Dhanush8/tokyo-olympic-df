@@ -1,0 +1,66 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tokyo-olympic-de"
+		},
+		"AthletesHTTP_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"CoachesHTTP_password": {
+			"value": ""
+		},
+		"EntriesGenderHTTP_password": {
+			"value": ""
+		},
+		"MedalsHTTP_password": {
+			"value": ""
+		},
+		"TeamsHTTP_password": {
+			"value": ""
+		},
+		"AthletesHTTP_properties_typeProperties_url": {
+			"value": "https://github.com/Dhanush8/tokyo-olympic-azure-data-engineering-project/raw/main/data/Athletes.csv"
+		},
+		"AthletesHTTP_properties_typeProperties_userName": {
+			"value": "Dhanush8"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://tokyoolympicdata246.dfs.core.windows.net/"
+		},
+		"CoachesHTTP_properties_typeProperties_url": {
+			"value": "https://github.com/Dhanush8/tokyo-olympic-azure-data-engineering-project/raw/main/data/Coaches.csv"
+		},
+		"CoachesHTTP_properties_typeProperties_userName": {
+			"value": "Dhanush8"
+		},
+		"EntriesGenderHTTP_properties_typeProperties_url": {
+			"value": "https://github.com/Dhanush8/tokyo-olympic-azure-data-engineering-project/raw/main/data/EntriesGender.csv"
+		},
+		"EntriesGenderHTTP_properties_typeProperties_userName": {
+			"value": "Dhanush8"
+		},
+		"MedalsHTTP_properties_typeProperties_url": {
+			"value": "https://github.com/Dhanush8/tokyo-olympic-azure-data-engineering-project/raw/main/data/Medals.csv"
+		},
+		"MedalsHTTP_properties_typeProperties_userName": {
+			"value": "Dhanush8"
+		},
+		"TeamsHTTP_properties_typeProperties_url": {
+			"value": "https://github.com/Dhanush8/tokyo-olympic-azure-data-engineering-project/raw/main/data/Teams.csv"
+		},
+		"TeamsHTTP_properties_typeProperties_userName": {
+			"value": "Dhanush8"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
